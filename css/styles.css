@@ -1,0 +1,386 @@
+/* Your styles here */
+* {
+    background-color: #E95C41;
+
+}
+
+.site-header {
+    display: inline;
+}
+
+
+
+.site-header__logo {
+
+
+    width: 118px;
+    height: 38px;
+
+    font-family: 'Vampiro One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 29px;
+    /* margin-bottom: 2112px; */
+    margin-left: 16px;
+    margin-right: 186px;
+    color: #E95C41;
+    /* identical to box height */
+
+
+    color: #391401;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+svg {
+    top: 26px;
+    color: pink;
+    margin-left: 500px;
+    margin-top: -60%;
+
+    border-width: 1px;
+
+    border-style: solid;
+    border-color: #BD4A30;
+}
+
+.site-header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: relative;
+    height: 184px;
+    left: 0px;
+    right: 2px;
+    top: 88px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    position: absolute;
+    /* check this area of code. Really messed up*/
+    width: 640px;
+    text-align: center;
+    display: block;
+}
+
+.site-header__nav li {
+    border-width: 1px;
+
+    border-style: solid;
+    border-color: #BD4A30;
+
+    /* row-gap: 8px; */
+    padding: 10px;
+    margin-top: 15px;
+    padding-top: 0px;
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #391401;
+    text-decoration: none;
+
+}
+
+/* .hero__image {
+
+    position: absolute;
+    max-width: 238px;
+    max-height: 242px;
+    left: calc(50% - 320px/2 - 3px);
+    top: 298px;
+
+} */
+
+
+.hero__image img {
+    position: absolute;
+    display: block;
+    width: 320px;
+    height: 342px;
+    left: calc(50% - 320px/2 - 3px);
+    top: 298px;
+    margin: 100px;
+    margin-top: 25px;
+    margin-left: 160px;
+
+
+
+}
+
+.divider1 {
+    position: absolute;
+    height: 24px;
+    left: 0px;
+    right: 0px;
+    top: 660px;
+    padding-left: 160px;
+    width: 645px;
+    background: #5C5D70;
+}
+
+
+.site-header__menu-trigger {
+    display: inline;
+    padding-left: 90px;
+
+    padding-top: -29px;
+
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.section {
+    display: block;
+    margin-top: 900px
+}
+
+.hero__header {
+    position: absolute;
+    width: 640px;
+    height: 594px;
+    left: calc(50% - 300px/2 - 0.5px);
+    top: 757px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 100%;
+    /* or 48px */
+
+    text-align: center;
+    letter-spacing: -0.05em;
+
+    color: #391401;
+
+}
+
+em {
+    color: white;
+}
+
+.hero__quote {
+    position: absolute;
+    width: 640px;
+    height: 94px;
+    left: calc(50% - 1/2);
+    top: 931px;
+
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 26px */
+
+    text-align: center;
+
+    color: #391401;
+
+}
+
+.hero__quote__name {
+    font-style: normal;
+}
+
+.divider2 {
+    position: absolute;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: 275px;
+
+    background: #391401;
+}
+
+.section {
+    display: block;
+}
+
+.section__header {
+    position: absolute;
+    width: 640px;
+    height: 24px;
+    left: calc(50% - 1/2 - 1px);
+    top: 1280px;
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 100%;
+    text-align: center;
+    /* identical to box height, or 24px */
+
+    letter-spacing: -0.03em;
+
+    color: #391401;
+}
+
+.toc__item li {
+    display: block;
+
+}
+
+.toc__image {
+    margin-left: 160px;
+
+    top: -00px;
+    padding-top: 400px;
+
+
+}
+
+.toc__image img {
+    border-radius: 50%;
+    box-shadow: 12px 8px 8px 0 #391401;
+}
+
+.toc__header {
+    width: 289px;
+    height: 86px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #391401;
+
+}
+
+.toc__header h3 {
+    /* margin-top: -3000px; */
+    text-align: center;
+
+
+}
+
+.toc__header {
+    text-align: center;
+    width: 640px;
+    height: -70px;
+    max-height: 0%;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.toc__lead-in {
+    width: 640px;
+    height: -2px;
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 70;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #391401;
+}
+
+.divider3 {
+    position: absolute;
+    height: 1px;
+    left: 0px;
+    right: 0px;
+    top: 3800px;
+
+
+    padding-left: 160px;
+    width: 645px;
+
+    background: #391401;
+
+}
+
+.mailing-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8.95385px 26.8615px;
+    margin-left: 160px;
+
+    position: absolute;
+    width: 194.72px;
+    height: 39.91px;
+    left: calc(50% - 194.72px/2 + 0.36px);
+    top: 3967px;
+
+    background: #5C5D70;
+    box-shadow: 5.96923px 5.96923px 0px rgba(0, 0, 0, 0.25);
+}
+
+.mailing-list a {
+    width: 141px;
+    height: 22px;
+
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    background: #5C5D70;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.site-footer {
+    position: absolute;
+    height: 181px;
+    left: 0px;
+    right: 0px;
+    top: 5090px;
+    width: 650px;
+
+    background: #391401;
+}
+
+.site-footer p {
+    position: absolute;
+    width: 640px;
+    height: 19px;
+    left: 16px;
+    bottom: 32px;
+    text-align: center;
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #391401;
+
+    color: #FFFFFF;
+}
